@@ -1,0 +1,80 @@
+.texto{
+	padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    
+    display: block;
+    p {
+	    font: 400 16px/26px "Raleway", sans-serif;
+	    margin: 0 0 10px;
+	}
+	h2{
+	    margin-top: 20px;
+	    margin-bottom: 10px;
+	    color: inherit;
+        font: 500 21px/30px "Poppins", sans-serif;
+	}
+	ol{
+	    margin-bottom: 10px;
+	}
+}
+#carrossel-testemunhos{
+	text-align: center;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.carousel {
+    position: relative;
+}
+
+	.carousel-inner {
+	    position: relative;
+	    width: 100%;
+	    overflow: hidden;
+	    box-sizing: border-box;
+}
+
+.carousel-indicators {
+	position: static;
+    margin-top: 5px;
+    bottom: 20px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+    box-sizing: border-box;
+
+    ul,ol{
+    	margin-bottom: 10px;
+    }
+    li:hover {
+        background-color: #606060;
+        border: 2px solid #606060;
+        width: 12px;
+        margin-right: 4px;
+}
+    li {
+    	border: 1px solid #606060;
+        width: 12px;
+        margin: 0px;
+        margin-right: 4px;
+
+        display: inline-block;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        box-sizing: border-box;
+        text-align: -webkit-match-parent;
+}
+}
+	.center-block {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+}

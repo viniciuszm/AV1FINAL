@@ -1,0 +1,201 @@
+#features {
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    h1 {
+    	margin-bottom: 40px;
+    	font: 500 42px/52px "Poppins", sans-serif;
+    	margin-top: 20px;
+    	color: inherit;
+}
+	.feature-box.top {
+    	margin-top: 115px;
+    	margin-left: -15px;
+    	margin-right: -15px;
+}
+	.features-icons {
+	    font-size: 40px;
+	    padding-top: 0px;
+	    margin-bottom: 0px;
+	    margin-top: 4px;
+	    float: left;
+	    color: #41a2ef;
+}
+
+	.features-text {
+	    margin-left: 60px;
+	    margin-top: 0px;
+	    padding: 0 10px;
+}
+	h3 {
+	    margin-top: 0px;
+	    margin-bottom: 3px;
+	    font: 500 21px/30px "Poppins", sans-serif;
+	    color: inherit;
+}
+	.feature-box {
+    	margin-top: 70px;
+    	margin-left: -15px;
+    	margin-right: -15px;
+}
+	#carrossel-telas {
+	    display: inline-block;
+	    margin-top: 50px;
+	    margin-bottom: 30px;
+	    height: 100%;
+}
+	.carousel-indicators {
+		margin-bottom: -30px;
+	    bottom: 20px;
+	    position: absolute;
+	    bottom: 10px;
+	    left: 50%;
+	    z-index: 15;
+	    width: 60%;
+	    padding-left: 0;
+	    margin-left: -33%;
+	    text-align: center;
+	    list-style: none;
+}
+	#carrossel-telas .carousel-indicators li {
+	    display: inline-block;
+	    width: 9px;
+	    height: 9px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    cursor: pointer;
+	    background-color: transparent;
+	    border: 1px solid #606060;
+	    border-radius: 10px;
+	    display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    cursor: pointer;
+	    background-color: #000 \9;
+	    background-color: rgba(0, 0, 0, 0);
+	    border: 1px solid #fff;
+	    border-radius: 10px;
+}
+	.carousel-control.prev {
+	    background: none;
+	    margin-top: -40px;
+	    opacity: 0.7;
+	    margin-left: 20px;
+}
+	.carousel-control.next {
+	    right: 0;
+	    left: auto;
+	    background: none;
+	    margin-top: -40px;
+	    padding-left: 20px;
+	    opacity: 0.7;
+	    margin-right: 20px;
+}
+}
+
+.carousel {
+    position: relative;
+}
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+    .carousel-control-prev-icon {
+	    left: 50%;
+	    margin-left: -10px;
+	    position: absolute;
+	    top: 50%;
+	    z-index: 5;
+	    display: inline-block;
+	    margin-top: -10px;
+	    font-size: 30px;
+}
+	.carousel-control-next-icon {
+	    right: 50%;
+	    margin-right: -10px;
+	    position: absolute;
+	    top: 50%;
+	    z-index: 5;
+	    display: inline-block;
+	    margin-top: -10px;
+	    font-size: 30px;
+}
+}
+.carousel {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+[role="button"] {
+    cursor: pointer;
+}
+a {
+    color: #606060;
+    text-decoration: underline;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+  }
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+p {
+    font: 400 16px/26px "Raleway", sans-serif;
+    margin: 0 0 10px;
+}
+.icon-mobile, .icon-laptop, .icon-desktop, .icon-tablet, .icon-phone, .icon-document, .icon-documents, .icon-search, .icon-clipboard, .icon-newspaper, .icon-notebook, .icon-book-open, .icon-browser, .icon-calendar, .icon-presentation, .icon-picture, .icon-pictures, .icon-video, .icon-camera, .icon-printer, .icon-toolbox, .icon-briefcase, .icon-wallet, .icon-gift, .icon-bargraph, .icon-grid, .icon-expand, .icon-focus, .icon-edit, .icon-adjustments, .icon-ribbon, .icon-hourglass, .icon-lock, .icon-megaphone, .icon-shield, .icon-trophy, .icon-flag, .icon-map, .icon-puzzle, .icon-basket, .icon-envelope, .icon-streetsign, .icon-telescope, .icon-gears, .icon-key, .icon-paperclip, .icon-attachment, .icon-pricetags, .icon-lightbulb, .icon-layers, .icon-pencil, .icon-tools, .icon-tools-2, .icon-scissors, .icon-paintbrush, .icon-magnifying-glass, .icon-circle-compass, .icon-linegraph, .icon-mic, .icon-strategy, .icon-beaker, .icon-caution, .icon-recycle, .icon-anchor, .icon-profile-male, .icon-profile-female, .icon-bike, .icon-wine, .icon-hotairballoon, .icon-globe, .icon-genius, .icon-map-pin, .icon-dial, .icon-chat, .icon-heart, .icon-cloud, .icon-upload, .icon-download, .icon-target, .icon-hazardous, .icon-piechart, .icon-speedometer, .icon-global, .icon-compass, .icon-lifesaver, .icon-clock, .icon-aperture, .icon-quote, .icon-scope, .icon-alarmclock, .icon-refresh, .icon-happy, .icon-sad, .icon-facebook, .icon-twitter, .icon-googleplus, .icon-rss, .icon-tumblr, .icon-linkedin, .icon-dribbble {
+    font-family: 'et-line';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+}
+.espaco{
+	margin-top:50px;
+}
+.contorno{
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}

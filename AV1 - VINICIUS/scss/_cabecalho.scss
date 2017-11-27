@@ -1,0 +1,54 @@
+.cabecalho {
+	background-color: $brand-success;
+	min-height: 100%;
+	display: block;
+	
+	margin-top: 0px;
+	position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+	h1 {
+		color: white;
+		text-align:left;
+		margin-bottom:20px;
+		margin-top:20px;
+		font:500 58px/66px "Poppins", sans-serif;
+
+	}
+	p {
+		text-align:left;
+		color: white;
+		font:400 18px/30px "Releway", sans-serif;
+		margin-left:0%;
+		margin-right:0%;
+		margin:0 0 10px;
+	}
+	header{
+		margin-top: 0px;
+    	text-align: left;
+	}
+	a {
+		display: inline-block;
+	    background-color: transparent;
+	    text-decoration:none;
+	}
+.img{
+	margin-top: 45px;
+    max-height: 500px;
+    text-align: center;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+* {
+    box-sizing: border-box;
+}

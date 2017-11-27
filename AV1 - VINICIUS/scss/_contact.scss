@@ -1,0 +1,164 @@
+#contact {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #fff;
+    box-sizing: border-box;
+
+    h1 {
+        margin-bottom: 40px;
+        font: 500 42px/52px "Poppins", sans-serif;
+        margin-top: 20px;
+        color: inherit;
+        margin: .67em 0;
+
+    form button {
+        margin-top: 15px;
+        border: none;
+}
+}
+ .map-responsive {
+    width: 97%;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    border: 4px solid #eeeeee;
+    border-radius: 4px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+	iframe {
+	    left: 0;
+	    top: 0;
+	    height: 100%;
+	    width: 100%;
+	    position: absolute;
+	    border: none;
+}
+    form {
+	    margin-top: 15px;
+	    width: 97%;
+	    float: right;
+}
+	input {
+	    margin-top: 0px;
+	    height: 42px;
+	    background: transparent;
+	    font: 400 16px/26px "Raleway", sans-serif;
+	    color: #606060;
+	    border: none;
+	    box-shadow: none;
+	    border-radius: 0px;
+	    border-bottom: 1px solid #000;
+	    text-align: center;
+	    margin: 0;
+}
+	textarea[placeholder] {
+	    text-align: left;
+	    margin-top: 20px;
+	    background-color: transparent;
+	    color: #606060;
+	    font: 400 16px/26px "Raleway", sans-serif;
+	    border: 1px solid rgba(0, 0, 0, 0.8);
+	    border-radius: 5px;
+	    margin-top: 50px;
+}
+textarea.form-control {
+    height: auto;
+}
+textarea {
+    overflow: auto;
+}
+	 button {
+    margin-top: 15px;
+    border: none;
+}
+	
+ .location-information {
+    margin-top: 60px;
+}
+	 p {
+    margin-bottom: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font: 400 16px/26px "Raleway", sans-serif;
+    margin: 0 0 10px;
+}
+	 ul {
+    margin-top: 5px;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+	 li {
+    display: inline;
+}
+.location-item {
+    margin-right: 14px;
+}
+}
+.col-md-4 {
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+a {
+    color: #606060;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.button-small-solid, .button-small-solid:focus {
+    font: 500 16px/26px "Poppins", sans-serif;
+    background-color: #36b57c;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.hidden {
+    display: none !important;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+* {
+    box-sizing: border-box;
+}

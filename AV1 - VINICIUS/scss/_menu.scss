@@ -1,0 +1,228 @@
+.navbar-custom {
+    transition: padding 0.3s;
+    border: none;
+    background-color: #41a2ef;
+    padding: 25px 0;
+    }
+.navbar-fixed-top {
+    top: 0;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-custom.affix {
+    padding: 0px;
+    background-color: #41a2ef;
+}
+.navbar {
+    min-height: 50px;
+}
+nav{
+    display: block;
+}
+.affix {
+    position: fixed;
+}
+
+.navbar-custom .navbar-toggle, .navbar-custom .navbar-toggle.collapsed {
+    margin: 7px 15px 0px 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    font: 500 12px/19px "Poppins", sans-serif;
+}
+
+.navbar-custom.affix .navbar-brand.img-logo {
+    padding: 9px 0px 0px 0px;
+}
+
+.navbar-custom.affix .navbar-brand.img-logo, .navbar-custom.affix-top .navbar-brand.img-logo {
+    margin: 0px;
+}
+.navbar-custom.affix .navbar-brand {
+    margin: 0px;
+    padding: 12px 0 0 0;
+    font: 600 26px/1em "Raleway", sans-serif;
+}
+.navbar-custom.affix-top .navbar-brand, .navbar-custom.affix .navbar-brand {
+    margin: 0px;
+    padding: 13px 0px 0px 15px;
+    color: #fff;
+    font: 600 22px/1em "Raleway", sans-serif;
+    text-decoration: none;
+}
+.navbar-custom.affix .navbar-brand.img-logo img {
+    width: 98px;
+    height: 31px;
+}
+.navbar-custom .navbar-brand.img-logo img {
+    margin: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 340px;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 340px;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+}
+.navbar-custom.affix-top .nav li.active a, .navbar-custom.affix .nav li.active a {
+    opacity: 1;
+    background: none;
+    color: #fff;
+}
+.navbar-custom.affix .nav li a {
+    margin-top: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font: 500 12px/1.3em "Poppins", sans-serif;
+}
+
+.navbar-custom.affix-top .nav li a {
+        padding-top: 13px;
+        padding-left: 12px;
+        padding-right: 12px;
+}
+
+.navbar-custom.affix-top .nav li a, .navbar-custom.affix .nav li a {
+        text-decoration: none;
+        padding-bottom: 4px;
+        font: 500 12px/22px "Poppins", sans-serif;
+        transition: all .3s ease;
+}
+
+.navbar-custom.affix-top .nav li a, .navbar-custom.affix .nav li a {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: all .3s ease;
+}
+.navbar-toggle {
+    display: none;
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+
+    img {
+    display: block;
+}
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+    float: left;
+}
+.navbar-collapse{
+    margin-right: 0;
+    margin-left: 0;
+    }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+a {
+    background-color: transparent;
+    text-decoration:none;
+    color:white;
+    background-color:transparent;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+.navbar-nav {
+    margin: 0;
+    flex-direction:row;
+
+    li {
+    float: left;
+}
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    li {
+        position: relative;
+        display: block;
+}
+    a {
+        position: relative;
+        display: block;
+}
+}
+a {
+    background-color: transparent;
+}
+
+* {
+    box-sizing: border-box;
+}

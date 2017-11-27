@@ -1,0 +1,87 @@
+#newsletter {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    background-color: #eeeeee;
+
+    form {
+    	margin-top: 15px;
+}
+	input {
+		display: inline-block;
+    	width: 300px;
+    	margin-right: 20px;
+	    margin-bottom: 15px;
+	    height: 42px;
+	    background: transparent;
+	    font: 400 16px/26px "Raleway", sans-serif;
+	    color: #606060;
+	    border: none;
+	    box-shadow: none;
+	    border-radius: 0px;
+	    border-bottom: 1px solid #000;
+	    text-align: center;
+}
+	button {
+	    display: inline-block;
+	    border: none;
+	    margin-top: 10px;
+}
+}
+.text-center {
+    text-align: center;
+}
+p {
+    font: 400 16px/26px "Raleway", sans-serif;
+    margin: 0 0 10px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    padding: 6px 12px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+input{
+	margin: 0;
+}
+.button-small-solid, .button-small-solid:focus {
+    font: 500 16px/26px "Poppins", sans-serif;
+    background-color: #36b57c;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+}
+.text-center {
+    text-align: center;
+}
+.hidden {
+    display: none !important;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
